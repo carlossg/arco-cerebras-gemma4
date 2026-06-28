@@ -1,0 +1,52 @@
+.hlx/*
+coverage/*
+logs/*
+node_modules
+
+helix-importer-ui
+.DS_Store
+*.bak
+.idea
+
+daTokenService.ts
+
+# Ensure these files are tracked
+!CLAUDE.md
+!AGENTS.md
+
+.env
+
+# Build output and caches
+dist
+build
+.cache
+.next
+.turbo
+.wrangler
+
+# Cloudflare Workers
+workers/*/node_modules/
+workers/*/.wrangler/
+.dev.vars
+
+# Generated hero images (stored in DA, not git)
+assets/images/heroes/
+drafts/media/
+
+# Local settings
+.claude/settings.local.json
+
+# Demo video build intermediates
+build-demo/audio/
+build-demo/images/
+build-demo/segments/
+build-demo/recordings/
+build-demo/concat.txt
+build-demo/.venv/
+
+# Load test results
+tools/loadtest/results/
+
+.hlx/.da-token.json
+
+content
