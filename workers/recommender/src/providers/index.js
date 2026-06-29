@@ -32,6 +32,11 @@ const PROVIDERS = {
 export const MODEL_CATALOG = [
   {
     provider: 'cerebras',
+    model: 'gemma-4-31b-trial',
+    label: 'Cerebras · Gemma 4 31B (1500 tokens/s)',
+  },
+  {
+    provider: 'cerebras',
     model: 'gpt-oss-120b',
     label: 'Cerebras · GPT-OSS 120B (3000 tokens/s)',
   },
