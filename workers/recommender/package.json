@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "promptfoo": "^0.121.12",
-    "wrangler": "^4.98.0"
+    "wrangler": "^4.105.0"
   }
 }
