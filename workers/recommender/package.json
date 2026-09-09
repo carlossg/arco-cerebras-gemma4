@@ -28,7 +28,7 @@
     "yaml": "^2.9.0"
   },
   "devDependencies": {
-    "promptfoo": "^0.121.12",
+    "promptfoo": "^0.121.20",
     "wrangler": "^4.98.0"
   }
 }
